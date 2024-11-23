@@ -1,0 +1,17 @@
+<script>
+    const Bairro= prompt("Bairro de entrega :" )
+    let taxa
+    switch(Bairro){
+    case "Centro":
+        taxa= 5.00
+        break
+    case "Periferia":
+        taxa = 80.00
+        break
+    case "Fragata":
+        taxa = 6.00
+    default:
+        taxa = 8.00
+    }
+    alert(`sua taxa é : ${taxa.toFixed(2)}`)
+</script>
